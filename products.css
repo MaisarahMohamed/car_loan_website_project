@@ -1,0 +1,291 @@
+
+/* THIS IS THE CSS STYLING CODES FOR PRODUCTS.HTML */
+
+
+/* === DEVELOPED BY:  === */
+/*
+		1. NURAIN NABILAH BT SALEHUDDIN
+		2. MAISARAH BT MOHAMMED
+		3. KHAIRUNNISA AKILAH BT NAHROB
+		4. AMIR MUKMIN BIN AZAHAR
+		
+		CLASS/GROUP: M3CS2514A 
+*/
+ 
+
+
+html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+      }
+
+
+/* TEXT STYLES
+===========================================================*/
+
+.products-text {
+  color: #ffffff;
+}
+
+.products-text01 {
+  margin: var(--dl-space-space-unit);
+}
+
+.products-text02 {
+  line-height: 2.5;
+  margin: var(--dl-space-space-unit);
+}
+
+.products-text03 {
+  color: #ffffff;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: justify;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.products-text04 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+
+.products-text05 {
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+
+
+.products-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+
+.products-logo {
+  width: 375px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* CONTAINER STYLES
+===========================================================*/
+
+
+.products-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  box-shadow: 5px 5px 10px 0px #000000;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5cbef5;
+}
+
+.products-container6 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.products-container7 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.products-container8 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.products-company-container {
+  width: 153px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.products-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+} 
+
+.products-row {
+  width: 90%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-model {
+  width: 400px;
+  height: 415px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-fourunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-fourunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+  transition: 0.4s;
+  background-color: #F0E442;
+  border-radius: 10px;
+}
+
+.products-model:hover {
+  box-shadow: 0 12px 10px -1px #000000;
+}
+
+/* BUTTON STYLES
+===========================================================*/
+
+
+.products-button {
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  font-weight: bold;
+  transition: 0.3s;
+  color: #FFFFFF;
+  background-color: #000000 ;
+}
+
+.products-button:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+
+/* IMAGE STYLES
+===========================================================*/
+
+.products-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.products-image01 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+/* OTHER STYLES
+===========================================================*/
+
+.products-seperator-yellow {
+  width: 100%;
+  height: 5px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #F0E442;
+}
+
+.products-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-gray-900);
+}
+
+/* MAIN OF EACH SECTION
+===========================================================*/
+
+.products-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.products-img-header {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.products-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.products {
+  width: 90%;
+  margin: var(--dl-space-space-threeunits);
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #676363;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+
+.products-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.products-contact {
+  width: 219px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}

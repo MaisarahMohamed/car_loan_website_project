@@ -1,0 +1,425 @@
+
+/* THIS IS THE CSS STYLING CODES FOR HOME.HTML */
+
+
+/* === DEVELOPED BY:  === */
+/*
+		1. NURAIN NABILAH BT SALEHUDDIN
+		2. MAISARAH BT MOHAMMED
+		3. KHAIRUNNISA AKILAH BT NAHROB
+		4. AMIR MUKMIN BIN AZAHAR
+		
+		CLASS/GROUP: M3CS2514A 
+*/
+ 
+
+
+html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+      }
+
+
+/* TEXT STYLES
+===========================================================*/
+
+.home-text {
+  color: #FFFFFF;
+}
+
+.home-text01 {
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}
+
+.home-text02 {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+  max-width: 450px;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+.home-text03 {
+  font-weight: bold;
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+.home-text04 {
+  font-size: 3rem;
+  text-align: center;
+}
+.home-text05 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: justify;
+  margin-bottom: var(--dl-space-space-twounits);
+
+}
+
+.home-text06 {
+  font-size: 3rem;
+}
+
+.home-text07 {
+  color: #ffffff;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: justify;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+.home-text08 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.home-text09 {
+  font-size: 3rem;
+  align-self: flex-end;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text10 {
+  align-self: flex-end;
+}
+
+.home-logo {
+  width: 375px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+
+/* CONTAINER STYLES
+===========================================================*/
+
+.home-container01 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #5CBEF5;
+  position: relative;
+  
+  
+}
+.home-container02 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+}
+
+.home-container03 {
+  flex: 2;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* for featured products box */
+.home-container04 {
+  flex: 1;
+  height: 535px;
+  display: flex;
+  position: relative;
+  max-width: 450px;
+  align-items: center;
+  flex-direction: column;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-twounits);
+  transition: 0.4s;
+  background-color: #F0E442;
+}
+
+.home-container04:hover {
+  box-shadow: 5px 5px 10px 0px #000000;
+}
+
+.home-container05 {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-container06 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-container07 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-container08 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.home-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-company-container {
+  width: 153px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+/* BUTTON STYLES
+===========================================================*/
+
+.home-button {
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  cursor: pointer;
+  transition: 0.3s;
+  color: #000000;
+  background-color: #F0E442;
+  display: auto;
+  text-align: center;
+}
+
+.home-button:hover {
+	color: #F0E442;
+	background-color: #000000;
+}
+
+.home-button1 {
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  transition: 0.3s;
+  color: #FFFFFF;
+  background-color: #000000; 
+}
+
+.home-button1:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.home-button2 {
+  margin-top: auto;
+  align-self: flex-end;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  transition: 0.3s;
+  color: #000000;
+  background-color: #F0E442;
+}
+
+.home-button2:hover {
+	color: #F0E442;
+	background-color: #000000;
+}
+
+
+/* IMAGE STYLES
+===========================================================*/
+
+.home-image {
+  width: 100%;
+  height: var(--dl-size-size-maxwidth);
+  object-fit: cover;
+}
+
+.home-image1 {
+  width: 100%;
+  height: var(--dl-size-size-maxwidth);
+  object-fit: cover;
+}
+
+.home-image2 {
+  margin-left: 50px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+
+/* OTHER STYLES
+===========================================================*/
+
+.home-seperator-yellow {
+  width: 100%;
+  height: 5px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #F0E442;
+}
+
+.home-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-gray-900);
+}
+
+.home-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+
+
+/* MAIN OF EACH SECTION
+===========================================================*/
+
+.home-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.home-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #000000;
+  
+}
+
+.home-hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-self: center;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  list-style-type: disc;
+  background-image: url('img/home-hero.jpg');
+  list-style-image: none;
+  list-style-position: outside;
+}
+
+.home-mission {
+  width: 100%;
+  height: 427px;
+  display: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-banner {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-feature {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5ff;
+}
+
+.home-calculator {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.home-contact {
+  width: 219px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.wrapper{
+  width: 100%;
+}
+
+.img-banner{
+  
+}
+
+
+

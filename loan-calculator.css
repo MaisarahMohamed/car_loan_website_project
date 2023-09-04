@@ -1,0 +1,344 @@
+
+/* THIS IS THE CSS STYLING CODES FOR LOAN CALCULATOR.HTML */
+
+
+/* === DEVELOPED BY:  === */
+/*
+		1. NURAIN NABILAH BT SALEHUDDIN
+		2. MAISARAH BT MOHAMMED
+		3. KHAIRUNNISA AKILAH BT NAHROB
+		4. AMIR MUKMIN BIN AZAHAR
+		
+		CLASS/GROUP: M3CS2514A 
+*/
+ 
+
+
+html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+      }
+	  
+	  input, select {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      }
+	  
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      }
+	  
+	  input.resultbox {
+	  color: #000000;
+	  font-weight: 700;
+      width:350px ;
+	  background-color: transparent;
+      border: none;
+      }
+	  
+      select {
+      width: 100%;
+      padding: 7px 0;
+      background: transparent;
+      }
+
+      .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
+      color: #333;
+      }
+	  
+      .item input:hover, .item select:hover, .item textarea:hover {
+      border: 1px solid transparent;
+      box-shadow: 0 0 6px 0 #333;
+      color: #333;
+      }
+	  
+      .item {
+      position: relative;
+      margin: 10px 0;
+      }
+	  
+      .item i {
+      right: 1%;
+      top: 30px;
+      z-index: 1;
+      }
+
+
+/* TEXT STYLES
+===========================================================*/
+
+.loan-calculator-text {
+  color: #ffffff;
+}
+
+.loan-calculator-text01 {
+  margin: var(--dl-space-space-unit);
+}
+
+.loan-calculator-text02 {
+  line-height: 2.5;
+  margin: var(--dl-space-space-unit);
+}
+
+.loan-calculator-text03 {
+  color: #ffffff;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: justify;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.loan-calculator-text04 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+
+.loan-calculator-text05 {
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+
+.loan-calculator-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+
+.loan-calculator-logo {
+  width: 375px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* CONTAINER STYLES
+===========================================================*/
+
+
+.loan-calculator-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  box-shadow: 5px 5px 10px 0px #000000;
+  min-height: 100%;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5cbef5;
+}
+
+.loan-calculator-container6 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.loan-calculator-container7 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.loan-calculator-container8 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.loan-calculator-company-container {
+  width: 153px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.loan-calculator-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+} 
+
+.loan-calculator-box-container {
+  
+  display: flex;
+  overflow: auto;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+  
+}
+
+@media (max-width: 1300px) {
+ .flex-container{
+   flex-direction: column;
+ 
+}
+  
+}
+
+.loan-calculator-box-container1 {
+    height: 400px;
+	width: 600px;
+	display: flex;
+	align-self: stretch;
+	box-shadow: 5px 5px 10px 0px #676363;
+ 	margin-top: var(--dl-space-space-twounits);
+	align-items: center;
+	margin-left: var(--dl-space-space-threeunits);
+	margin-right: var(--dl-space-space-threeunits);
+	margin-bottom: var(--dl-space-space-twounits);
+	justify-content: center;
+	border-radius: 30px;
+	background-color: #FFFFFF;
+  overflow-wrap: break-word;
+}
+
+
+/* BUTTON STYLES
+===========================================================*/
+
+button {
+    width: 150px;
+	padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+	font-weight: bold;
+    cursor: pointer;
+	transition: 0.3s;
+	color: #000000;
+	background-color: #F0E442 ;
+    }
+	  
+button:hover {
+    color: #F0E442;
+	background-color: #000000;
+    }
+	
+.btn-block {
+    margin-top: 10px;
+    text-align: center;
+    }
+	  
+/* IMAGES
+===========================================================*/
+
+.loan-calculator-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+/* OTHER STYLES
+===========================================================*/
+
+form {
+      width: 100%;
+      padding: 20px; 
+      }
+
+.loan-calculator-seperator-yellow {
+  width: 100%;
+  height: 5px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #F0E442;
+}
+
+.loan-calculator-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-gray-900);
+}
+
+/* MAIN OF EACH SECTION
+===========================================================*/
+
+.loan-calculator-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.loan-calculator-img-header {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.loan-calculator-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.products {
+  width: 90%;
+  margin: var(--dl-space-space-threeunits);
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #676363;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+
+.loan-calculator-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.loan-calculator-contact {
+  width: 219px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
